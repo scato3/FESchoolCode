@@ -1,0 +1,19 @@
+레파지토리 생성 -> 폴더 github bash -> echo "#githubpractice" >> README..md githubpractice라는 메시지를 readme에 넣는다는 뜻
+-> git init -> git add README.md -> git commit -m "message" git branch -M main -> git remote add origin 주소 ( 연결 )
+-> git push -u origin main
+
+git commit -m 'message' , git push
+
+git add . git commit -m 'message' git push
+
+git branch one -> git checkout one(one들어가기) -> git branch(위치 확인)
+
+git add . git commit -m 'one_1' -> git push origin one -> git ceckout one -> git checkout main
+
+git merge one ,, git add . -> git commit -> git commit -m 'merge complete' -> git push
+
+git branch -> git branch one -> git checkout one -> git add . -> git commit -m 'one_1' -> git push origin one
+
+git add . , git commit -m 'one_2' , git push origin one -> git checkout main -> git merge onegi
+
+git diff(변화된 것)
